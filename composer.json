@@ -1,0 +1,30 @@
+{
+    "name": "dsielab/shield-module",
+    "description": "Security module for a complete modular laravel application.",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DSIELAB",
+            "email": "dsielab@dsielab.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Generator\\Providers\\GeneratorServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Generator\\": ""
+        }
+    }
+}
